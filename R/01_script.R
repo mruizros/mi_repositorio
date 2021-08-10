@@ -1,4 +1,5 @@
 library('MASS')
+library('ggplot2')
 data(MASS::cats)
 pdf("mis_imagenes/cats_plot.pdf") 
 ggplot(cats, aes(x = Sex)) + 
